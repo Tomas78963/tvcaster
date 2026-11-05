@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_browser"
+        android:icon="@drawable/ic_globe"
+        android:title="@string/menu_browser" />
+    <item
+        android:id="@+id/nav_recent"
+        android:icon="@drawable/ic_history"
+        android:title="@string/menu_recent" />
+    <item
+        android:id="@+id/nav_playlist"
+        android:icon="@drawable/ic_playlist"
+        android:title="@string/menu_playlist" />
+    <item
+        android:id="@+id/nav_favorites"
+        android:icon="@drawable/ic_star"
+        android:title="@string/menu_favorites" />
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_history"
+        android:title="@string/menu_history" />
+    <item
+        android:id="@+id/nav_top"
+        android:icon="@drawable/ic_trending"
+        android:title="@string/menu_top" />
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/menu_settings" />
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_info"
+        android:title="@string/menu_about" />
+    <item
+        android:id="@+id/nav_dark"
+        android:checkable="true"
+        android:icon="@drawable/ic_moon"
+        android:title="@string/menu_dark" />
+</menu>

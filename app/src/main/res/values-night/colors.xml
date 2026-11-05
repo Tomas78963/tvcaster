@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Koyu tema: lacivert-turuncu -->
+    <color name="app_bg">#0A1330</color>
+    <color name="app_surface">#16224E</color>
+    <color name="app_text">#F2F4FA</color>
+    <color name="app_text_hint">#97A0BC</color>
+</resources>

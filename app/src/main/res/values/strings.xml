@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TV Video Gönder</string>
+
+    <!-- Yan menu -->
+    <string name="menu_browser">Tarayıcı</string>
+    <string name="menu_recent">Son kullanılan medyalar</string>
+    <string name="menu_playlist">Oynatma listesi</string>
+    <string name="menu_favorites">Sık kullanılanlar</string>
+    <string name="menu_history">Tarayıcı geçmişi</string>
+    <string name="menu_top">En çok ziyaret edilenler</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="menu_about">Hakkında</string>
+    <string name="menu_dark">Koyu tema</string>
+
+    <!-- Ust bar -->
+    <string name="hint_url">Adres girin veya bağlantı yapıştırın</string>
+    <string name="cd_menu">Menü</string>
+    <string name="cd_back">Geri</string>
+    <string name="cd_forward">İleri</string>
+    <string name="cd_reload">Yenile</string>
+    <string name="cd_go">Git</string>
+    <string name="cd_paste">Yapıştır ve git</string>
+    <string name="cd_fav">Sık kullanılanlara ekle</string>
+
+    <!-- Video yakalama -->
+    <string name="fab_tv">TV\'de Oynat</string>
+    <string name="found_videos">Bulunan videolar</string>
+    <string name="sheet_hint">TV\'ye göndermek için dokunun · Oynatma listesine eklemek için basılı tutun\nListe boşsa: oynatıcıda Oynat\'a basın; akış başlayınca kaynak yakalanır</string>
+    <string name="blob_hint">⚠ Bu oynatıcı videoyu \"blob:\" (korumalı akış) olarak veriyor; blob adresi doğrudan gönderilemez. Aşağıda [HLS]/[DASH]/[MP4] kaynak varsa onu seçin; hiçbiri görünmüyorsa bu sitenin akışı TV\'ye gönderilemiyor.</string>
+    <string name="video_found">Video bulundu: %1$s</string>
+    <string name="added_playlist">Oynatma listesine eklendi</string>
+    <string name="saved_fav">Sık kullanılanlara eklendi</string>
+
+    <!-- Yayin -->
+    <string name="casting_to_tv">TV\'ye gönderiliyor…</string>
+    <string name="choose_tv">Önce ekrandan TV\'nizi seçin</string>
+    <string name="cast_not_available">Yayın özelliği kullanılamıyor. Google Play hizmetleri gerekir.</string>
+    <string name="cast_error">Video TV\'ye yüklenemedi</string>
+    <string name="cast_load_failed_code">TV videoyu yüklemedi (hata kodu: %1$d). Bağlantı süresi dolmuş ya da site TV\'ye doğrudan izin vermiyor olabilir. Sayfayı yenileyip tekrar deneyin.</string>
+    <string name="cast_play_error">TV videoyu çalamadı. Bağlantı korumalı (Referer/çerez), süresi dolmuş ya da biçim TV\'de desteklenmiyor olabilir. Sayfayı yenileyip tekrar deneyin veya farklı bir kaynak seçin.</string>
+    <string name="cast_control">Yayın denetimi</string>
+    <string name="btn_rew">-10 sn</string>
+    <string name="btn_fwd">+10 sn</string>
+    <string name="pause">Duraklat</string>
+    <string name="play">Oynat</string>
+    <string name="stop">Durdur</string>
+    <string name="tv_volume">TV ses düzeyi</string>
+
+    <!-- Erisim on-testi -->
+    <string name="probe_title">Erişim uyarısı</string>
+    <string name="probe_msg">Bu video bağlantısına telefondan \'misafir\' bir istekle erişilemedi (HTTP %1$d). TV de büyük olasılıkla yükleyemeyecek: site Referer/çerez korumalı olabilir ya da bağlantının süresi dolmuş olabilir. Öneri: sayfayı yenileyip videoyu hemen seçin veya farklı bir kaynak deneyin. Yine de denensin mi?</string>
+    <string name="probe_try">Yine de dene</string>
+    <string name="cancel">İptal</string>
+
+    <!-- Genel -->
+    <string name="err_load">Sayfa yüklenemedi. İnternet bağlantısını kontrol edin.</string>
+    <string name="clipboard_empty">Pano boş</string>
+    <string name="lib_hint">Açmak için dokunun · Silmek için basılı tutun</string>
+    <string name="clear_btn">Temizle</string>
+    <string name="list_cleared">Liste temizlendi</string>
+    <string name="empty_list">Liste boş</string>
+
+    <!-- Ayarlar -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="s_ads">Reklam engelleme</string>
+    <string name="s_ads_desc">Bilinen reklam alan adlarını engeller ve sayfalardaki reklam katmanlarını gizler</string>
+    <string name="s_popup">Pop-up engelleme</string>
+    <string name="s_popup_desc">window.open ile açılan pop-up pencereleri ve otomatik yönlendirmeleri engeller</string>
+    <string name="s_dark">Koyu tema</string>
+    <string name="s_dark_desc">Lacivert-turuncu koyu temayı kullanır</string>
+    <string name="limits_btn">Bilinen sınırlamaları göster</string>
+
+    <!-- Hakkinda -->
+    <string name="about_title">Hakkında</string>
+
+    <!-- Bildirim -->
+    <string name="notif_channel">Yayın durumu</string>
+    <string name="notif_title">TV Video Gönder</string>
+    <string name="notif_casting">TV\'ye yayın yapılıyor</string>
+    <string name="notif_paused">Yayın duraklatıldı veya bekliyor</string>
+
+    <string name="about_text">TV Video Gönder v1.2\n\nTelefonunuzdaki videoları, aynı Wi-Fi ağındaki Chromecast veya Android TV cihazınıza gönderir. TV tarafına hiçbir uygulama kurmanız gerekmez.\n\nKULLANIM\n1. Adres çubuğuna site adresini yazın ve video sayfasını açın.\n2. Sayfada video bulunursa \"TV\'de Oynat\" düğmesi belirir.\n3. Düğmeye dokunun, listeden videoyu seçin. [HLS] ve [DASH] etiketli kaynaklar TV için en uyumludur; [MP4] çoğu sitede çalışır.\n4. Ekrandan TV\'nizi seçin; video TV\'de başlar.\n5. Alt bardan oynat/duraklat, ±10 sn, ses ve durdurma işlemlerini yapın.\nDoğrudan video bağlantısı (.mp4 / .m3u8 / .mpd / .webm) göndermek için adres çubuğunun yanındaki yapıştır düğmesini kullanın.\n\nBİLİNEN SINIRLAMALAR\n• DRM korumalı içerik (Netflix, Disney+, Amazon Prime vb.) telif kısıtları nedeniyle gönderilemez.\n• Bazı oynatıcılar videoyu "blob:" (korumalı akış) olarak verir; blob adresi TV\'ye gönderilemez. v1.2 bu durumu algılar ve akışın altındaki gerçek [HLS]/[DASH]/[MP4] kaynağını yakalarsa listeler; TV bu kaynakları kendi oynatıcısıyla oynatabilir.\n• Bazı siteler videoları yalnızca kendi sunucularından oynatır (Referer/çerez kısıtı). Bu tür kaynaklar TV\'de \"kaynak yüklenemedi\" hatası verebilir; telefondaki oynatma etkilenmez. Uygulama böyle bir durumda sizi önceden uyarır.\n• Süreli (token) bağlantılarda sayfayı yenileyip videoyu HEMEN seçin; bağlantı tazeyken TV\'ye yükleme şansı en yüksektir.\n• Telefon ile TV aynı Wi-Fi ağında olmalıdır. Misafir ağlarında veya \"AP izolasyonu\" açık olan ağlarda TV görünmez.\n• Canlı TV (m3u8) ve DASH (mpd) kaynaklarının çoğu desteklenir; ancak bazı kanallar bölgesel olarak engellenmiş olabilir.\n• Reklam engelleme %100 garanti değildir; yeni reklam alan adları blocklist.txt dosyasına eklenerek geliştirilebilir.\n• Uygulama, Google Cast destekli cihazlarla (Chromecast, Android TV / Google TV) çalışır.\n\nUygulama Kotlin ile yazılmıştır. Tüm kullanıcı verileri (geçmiş, oynatma listesi, sık kullanılanlar) yalnızca cihazınızda saklanır; hiçbir sunucuya gönderilmez.</string>
+</resources>

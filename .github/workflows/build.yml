@@ -1,0 +1,31 @@
+name: APK Derle
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Projeyi indir
+        uses: actions/checkout@v4
+
+      - name: Java 17 kur
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Gradle izinlerini duzelt
+        run: chmod +x gradlew
+
+      - name: APK derle (debug, wrapper ile)
+        run: ./gradlew assembleDebug --no-daemon --stacktrace
+
+      - name: APK'yi yukle (artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: TV-Video-Gonder-APK
+          path: app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange">#FF8A3D</color>
+    <color name="navy_dark">#0D193D</color>
+
+    <!-- Acik tema (varsayilan) -->
+    <color name="app_bg">#F5F6FA</color>
+    <color name="app_surface">#FFFFFF</color>
+    <color name="app_text">#131A33</color>
+    <color name="app_text_hint">#8A90A3</color>
+</resources>

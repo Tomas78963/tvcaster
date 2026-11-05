@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TVCaster" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorOnPrimary">@color/navy_dark</item>
+        <item name="colorPrimaryContainer">@color/orange</item>
+        <item name="colorOnPrimaryContainer">@color/navy_dark</item>
+        <item name="colorSecondary">@color/orange</item>
+        <item name="android:colorBackground">@color/app_bg</item>
+        <item name="colorSurface">@color/app_surface</item>
+        <item name="colorOnSurface">@color/app_text</item>
+        <item name="android:statusBarColor">@color/app_bg</item>
+        <item name="android:navigationBarColor">@color/app_bg</item>
+        <item name="android:windowBackground">@color/app_bg</item>
+    </style>
+</resources>
